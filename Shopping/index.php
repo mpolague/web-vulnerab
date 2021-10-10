@@ -1,7 +1,7 @@
 <?php
     require_once('php/component.php');
     require_once('php/CreateDb.php');
-
+    require_once('php/CreateDb_userinfo.php');
     //Create instance of CreateDb class
     $database = new CreateDb("Productdb", "Producttb");
 ?>
